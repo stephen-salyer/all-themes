@@ -1,3 +1,212 @@
 {
-  "global": {}
+  "Bayer": {
+    "Base": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "01": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "Color": {
+      "Primary": {
+        "Base": {
+          "value": "#de004f",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "#E11452",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "#E63D70",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "#E9527F",
+          "type": "color"
+        }
+      },
+      "OnPrimary": {
+        "Active": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "Button": {
+      "value": {
+        "fontFamily": "Helvetica Neue",
+        "fontWeight": "Bold Italic",
+        "lineHeight": "16",
+        "fontSize": "14",
+        "letterSpacing": ".75px",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "uppercase"
+      },
+      "type": "typography"
+    },
+    "02": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "03": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "Base": {
+    "Base": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "Button": {
+      "value": {
+        "fontFamily": "Roboto",
+        "fontWeight": "Medium",
+        "lineHeight": "16",
+        "fontSize": "14",
+        "letterSpacing": "1.25",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "Upper"
+      },
+      "type": "typography"
+    },
+    "Color": {
+      "Primary": {
+        "Base": {
+          "value": "#673AB7",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "#7349BD",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "#8B69C8",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "#9879CE",
+          "type": "color"
+        }
+      },
+      "OnPrimary": {
+        "Active": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "01": {
+      "value": [
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "5",
+          "spread": "0",
+          "color": "rgba(0,0,0,.20)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba(0,0,0,.14)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3",
+          "blur": "1",
+          "spread": "-2",
+          "color": "rgba(0,0,0,.12)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "02": {
+      "value": [
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "-1",
+          "color": "rgba(0,0,0,.20)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba(0,0,0,.12)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "5",
+          "spread": "0",
+          "color": "rgba(0,0,0,.14)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "03": {
+      "value": [
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "5",
+          "spread": "-3",
+          "color": "rgba(0,0,0,.20)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3",
+          "blur": "14",
+          "spread": "2",
+          "color": "rgba(0,0,0,.12)",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "8",
+          "blur": "10",
+          "spread": "1",
+          "color": "rgba(0,0,0,.14)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  }
 }
