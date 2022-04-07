@@ -32,11 +32,31 @@
         "Pressed": {
           "value": "#E9527F",
           "type": "color"
+        },
+        "Ramp": {
+          "100": {
+            "value": "rgba({Color.Primary.Base}, 0.14)",
+            "type": "color"
+          },
+          "200": {
+            "value": "rgba({Color.Primary.Base}, 0.18)",
+            "type": "color"
+          },
+          "050": {
+            "value": "rgba({Color.Primary.Base}, 0.04)",
+            "type": "color"
+          }
         }
       },
       "OnPrimary": {
         "Active": {
           "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "OnSurface": {
+        "Stroke": {
+          "value": "rgba(0,0,0,.12)",
           "type": "color"
         }
       }
